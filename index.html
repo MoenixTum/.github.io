@@ -44,8 +44,9 @@
 
     function create ()
     {
+        game.stage.backgroundColor = '#182d3b';
         this.add.image(200, 300, 'B1');
-        var gamepad = this.input.gamepad;
+        game.add.button();
     }
 
     function update(){
